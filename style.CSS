@@ -1,0 +1,56 @@
+
+body{
+  background-color: black;
+}
+
+a{
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+a span{
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+nav{
+  display: flex;
+  gap: 24px;
+}
+
+nav, main{
+  padding: 12px;
+}
+
+main{
+  columns: 2;
+
+}
+
+img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+footer image{
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+}
